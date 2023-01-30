@@ -1,11 +1,1 @@
-steps:
-    - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-    entrypoint:'bash'
-    args:
-        - '-c'
-        - |
-          gcloud config set app/cloud_build_timeout 3600 \
-          && gcloud app deploy -q --promote -v=721059036331 \
-          --project=portail-education-ml
 
-timeout: '3600s'
