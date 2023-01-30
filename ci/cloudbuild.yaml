@@ -1,1 +1,4 @@
-
+steps:
+    - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint:'bash'
+timeout: '3600s'
