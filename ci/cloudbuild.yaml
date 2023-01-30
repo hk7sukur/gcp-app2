@@ -1,7 +1,3 @@
 steps:
     - name:'gcr.io/google.com/cloudsdktool/cloud-sdk'
     entrypoint:'bash'
-args:'-c'
-        - |
-          gcloud app deploy -q --promote -v=721059036331 \
-          --project=portail-education-ml
